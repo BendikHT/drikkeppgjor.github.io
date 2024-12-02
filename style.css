@@ -25,7 +25,12 @@ body {
     font-size: 60px;
 }
 
+.logoDiv {
+    display: flex;
+}
+
 .logo {
-    width: 20px;
-    height: 20px;
+    margin: auto;
+    width: 600px;
+    height: auto;
 }
