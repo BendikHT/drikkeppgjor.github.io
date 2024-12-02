@@ -1,0 +1,14 @@
+body{
+    overflow: hidden;
+}
+
+.logoDivAnimasjon {
+    animation: animasjon 4s ease;
+}
+
+@keyframes animasjon{
+    100%{
+        transform: scale(50);
+        opacity: 0;
+    }
+}

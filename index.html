@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 
     <title>Forside</title>
 </head>
@@ -19,11 +20,22 @@
 
     <h1 class="title">Drikkeoppgjør</h1> -->
 
-    <div class="logoDiv">
+    <div id="logoDiv" onclick="tilStart()">
         <img class="logo" src="bilder/logot.png">
         <!-- <img class="svgLogo" src="bilder/dop.svg"> -->
     </div>
 
 </body>
+<script>
+    function tilStart(){
+        console.log("hei")
+        const bilde = document.getElementById("logoDiv")
+        logoDiv.classList.add("logoDivAnimasjon");
+        function bytt(){
+            window.open("start.html","_self")
+        }
+        setTimeout(bytt, 3900)
+    }
+</script>
 </html>
 

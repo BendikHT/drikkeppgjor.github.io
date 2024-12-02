@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -25,10 +24,11 @@ body {
     font-size: 60px;
 }
 
-.logoDiv {
+#logoDiv {
     display: flex;
     height: 100vh;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo {
@@ -36,3 +36,4 @@ body {
     width: 600px;
     height: auto;
 }
+
