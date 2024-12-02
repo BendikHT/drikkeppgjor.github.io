@@ -11,7 +11,6 @@
 
 :root {
     --lilla: #b7abf9;
-
     --background-color: #f0eef9;
     --font-color: #191721;
 }
@@ -21,12 +20,15 @@ body {
     color: var(--font-color);
 }
 
+
 .title {
     font-size: 60px;
 }
 
 .logoDiv {
     display: flex;
+    height: 100vh;
+    align-items: center;
 }
 
 .logo {
