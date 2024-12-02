@@ -37,3 +37,8 @@ body {
     height: auto;
 }
 
+@media (width < 600px){
+    .logo{
+        width: 100%;
+    }
+}
