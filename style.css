@@ -1,0 +1,12 @@
+
+.navbar {
+    display: flex;
+    margin: 20px;
+
+    background-color: rgb(214, 58, 58);
+}
+
+.navbar div {
+    margin: auto;
+    font-size: 20px;
+}
