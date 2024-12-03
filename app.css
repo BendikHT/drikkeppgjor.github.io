@@ -1,4 +1,10 @@
 
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .navbar {
     display: flex;
     padding: 8px 50px;
@@ -8,6 +14,7 @@
     margin: auto;
     display: flex;
     align-items: center;
+    flex: 0 1 auto;
 }
 
 .navbar a:first-child {
@@ -17,11 +24,10 @@
 .main {
     display: grid;
     grid-template-columns: 200px auto 280px;
-    height: 100vh;
+    flex: 1 1 auto;
 }
 
 .main > div {
-    margin: 0 0 60px 0;
     padding: 22px;
     border-top: 1px solid var(--gray);
     border-right: 1px solid var(--gray);
