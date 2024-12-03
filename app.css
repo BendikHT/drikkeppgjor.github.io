@@ -28,23 +28,36 @@ body {
 }
 
 .main > div {
-    padding: 22px;
     border-top: 1px solid var(--gray);
     border-right: 1px solid var(--gray);
 }
 
+.chatMidtContainer {
+    display: grid;
+    grid-template-rows: max-content auto max-content;
+}
+
+.chatTop {
+    padding: 22px;
+    border-bottom: 1px solid var(--gray);
+}
+
 .chatBoks {
-    margin: 20px;
-    border: 1px solid var(--gray);
+    /* margin: 20px; */
+}
+
+.chatInputBoks {
+    padding: 22px;
+    border-top: 1px solid var(--gray);
 }
 
 .chat {
-    margin: 20px 0 20px 0;
+    margin: 20px 10px;
 }
 
 .group {
     display: flex;
-    margin-bottom: 20px;
+    margin: 22px;
     padding: 8px;
     border: 1px solid var(--gray);
     border-radius: 6px;
@@ -58,12 +71,13 @@ body {
     width: 30px;
 }
 
-.betalingsBox {
-    
+.betalingBoks {
+    padding: 22px;
 }
 
-.betalingBoks h1 {
+.storTekst {
     font-size: 42px;
+    font-weight: 700;
 }
 
 .logo {
