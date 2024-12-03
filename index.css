@@ -1,5 +1,24 @@
+
 body{
     overflow: hidden;
+}
+
+
+#logoDiv {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 120px;
+}
+
+@media (width < 600px){
+    .logo{
+        width: 100%;
+    }
 }
 
 .logoDivAnimasjon {
