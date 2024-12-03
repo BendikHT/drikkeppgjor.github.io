@@ -47,8 +47,25 @@ body {
 }
 
 .chatInputBoks {
+    display: flex;
     padding: 22px;
     border-top: 1px solid var(--gray);
+}
+
+.chatInputBoks input {
+    width: 100%;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+}
+
+.chatInputBoks span {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 0 8px;
 }
 
 .chat {
