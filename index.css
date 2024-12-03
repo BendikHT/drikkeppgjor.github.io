@@ -12,7 +12,7 @@ body{
 }
 
 .logo {
-    width: 120px;
+    width: 100%;
 }
 
 @media (width < 600px){
