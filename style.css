@@ -15,7 +15,8 @@ img {
 :root {
     --lilla: #b7abf9;
     --sort: #191721;
-    --gray: #848191;
+    --lightgray: #e3e2e4;
+    --gray: #9c9ba2;
 
     --background-color: #f0eef9;
     --font-color: var(--sort);
@@ -37,14 +38,14 @@ body {
 .main {
     display: grid;
     grid-template-columns: 200px auto 280px;
-    gap: 2%;
     height: 100vh;
 }
 
 .main > div {
-    margin: 8% 0% 8% 0%;
+    margin: 60px 0 60px 0;
     padding: 22px;
-    background-color: var(--lilla);
+    border-top: 1px solid var(--gray);
+    border-right: 1px solid var(--gray);
 }
 
 .chatBoks {
@@ -58,17 +59,21 @@ body {
 
 .group {
     display: flex;
-    margin: 20px 0 20px 0;
+    margin-bottom: 20px;
     padding: 8px;
     border: 1px solid var(--gray);
     border-radius: 6px;
+}
+
+.group:hover {
+    background-color: var(--lightgray);
 }
 
 .groupImg {
     width: 30px;
 }
 
-.betalingBox {
+.betalingsBox {
     
 }
 
