@@ -1,3 +1,8 @@
+body{
+    background-color: var(--lilla);
+
+}
+
 img{
     width: 100%;
 }
@@ -10,7 +15,6 @@ h1{
     font-size: 60px;
     padding-top: 150px;
     font-weight: 500;
-
 }
 
 #sectionOne{
