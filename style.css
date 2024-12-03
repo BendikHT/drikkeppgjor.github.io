@@ -8,10 +8,17 @@
     font-family: "Montserrat", serif;
 }
 
+img {
+    width: auto;
+}
+
 :root {
     --lilla: #b7abf9;
+    --sort: #191721;
+    --gray: #848191;
+
     --background-color: #f0eef9;
-    --font-color: #191721;
+    --font-color: var(--sort);
 }
 
 body {
@@ -29,18 +36,40 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 10%;
-    margin: 10%;
+    grid-template-columns: 200px auto 280px;
+    gap: 2%;
+    height: 100vh;
+}
+
+.main > div {
+    margin: 8% 0% 8% 0%;
+    padding: 22px;
+    background-color: var(--lilla);
 }
 
 .chatBoks {
     margin: 20px;
-    background-color: var(--lilla);
+    border: 1px solid var(--gray);
+}
+
+.chat {
+    margin: 20px 0 20px 0;
+}
+
+.group {
+    display: flex;
+    margin: 20px 0 20px 0;
+    padding: 8px;
+    border: 1px solid var(--gray);
+    border-radius: 6px;
+}
+
+.groupImg {
+    width: 30px;
 }
 
 .betalingBox {
-    background-color: var(--lilla);
+    
 }
 
 .title {
