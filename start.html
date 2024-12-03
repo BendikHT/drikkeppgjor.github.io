@@ -11,14 +11,24 @@
 
 <body>
     <div class="section" id="sectionOne">
-        <img src="bilder/icon.png" alt="">
-        <h1>DRIKKE- <br> OPPGJØR</h1>
-        <p>For dagen der på</p>
+        <div id="sectionOneBox">
+            <div>
+                <img src="bilder/icon.png" alt="">
+                <h1>DRIKKE- <br> OPPGJØR</h1>
+                <p>For dagen der på</p>
+            </div>
+            <button onclick="tilApp()">Get Started</button>
+        </div>
     </div>
 
     <div class="section">
 
     </div>
+<script>
+    function tilApp(){
+        window.open("app.html","_sef")
+    }
+</script>
 </body>
 
 </html>

@@ -1,5 +1,5 @@
 body{
-    background-color: var(--lilla);
+    
 
 }
 
@@ -11,18 +11,32 @@ img{
     height: 100vh;
 }
 
-h1{
+
+
+#sectionOne{
+    background-color: var(--lilla);
+}
+
+#sectionOneBox{
+    height: 100vh;
+    padding: 10vh 10%;
+    padding-top: 10vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#sectionOneBox img{
+    width: 12%;
+}
+#sectionOneBox h1{
     font-size: 60px;
     padding-top: 150px;
     font-weight: 500;
+    grid-column: 1/2;
 }
 
-#sectionOne{
-    width: 80%;
-    height: 80vh;
-    margin: auto;
-    margin-top: 10vh;
-}
-#sectionOne img{
-    width: 8%;
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
 }
