@@ -1,0 +1,24 @@
+img{
+    width: 100%;
+}
+
+.section{
+    height: 100vh;
+}
+
+h1{
+    font-size: 60px;
+    padding-top: 150px;
+    font-weight: 500;
+
+}
+
+#sectionOne{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+}
+#sectionOne img{
+    width: 8%;
+}
