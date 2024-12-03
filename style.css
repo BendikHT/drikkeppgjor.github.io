@@ -19,6 +19,29 @@ body {
     color: var(--font-color);
 }
 
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    margin: auto;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10%;
+    margin: 10%;
+}
+
+.chatBoks {
+    margin: 20px;
+    background-color: var(--lilla);
+}
+
+.betalingBox {
+    background-color: var(--lilla);
+}
 
 .title {
     font-size: 60px;
